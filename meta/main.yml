@@ -13,4 +13,4 @@ galaxy_info:
   galaxy_tags: []                            # Tags for Ansible Galaxy search
   license: MIT                               # License for the role
   min_ansible_version: 2.9                   # Minimum Ansible version required
-  dependencies: []                           # Role dependencies
+dependencies: []                           # Role dependencies
