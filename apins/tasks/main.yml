@@ -1,0 +1,13 @@
+- name: Install Apache2
+  apt:
+    name: "{{ apache2_pkg }}"
+    state: present
+    update_cache: yes
+  notify: Show Apache2 status
+                            
+- name: Ensure Apache2 service is running
+  service:
+    name: "{{ apache2_pkg }}"
+    state: started
+    enabled: yes
+# tasks file for apins

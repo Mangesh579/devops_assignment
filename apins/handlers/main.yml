@@ -1,0 +1,9 @@
+- name: Show Apache2 status
+  command: systemctl status apache2
+  register: apache2_status
+
+- name: Display Apache2 status output
+  debug:
+    var: apache2_status.stdout_lines
+
+# handlers file for apins

@@ -1,0 +1,9 @@
+- name: Install Apache2 on local machine
+  hosts: servers
+  remote_user: ubuntu
+  become: yes
+  vars:
+    ansible_ssh_private_key_file: "/home/ubuntu/keys/ansass.pem"
+  roles:
+    - apache2_install
+
