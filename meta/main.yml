@@ -1,0 +1,16 @@
+galaxy_info:
+  role_name: apache2_role                   # Name of the role
+  author: Mangesh Shrestha                   # Author of the role
+  description:                               # Brief description of the role
+    Role to install Apache2
+  platforms:                                 # Supported platforms
+    - name: Debian
+      versions:                               # Supported versions
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+  galaxy_tags: []                            # Tags for Ansible Galaxy search
+  license: MIT                               # License for the role
+  min_ansible_version: 2.9                   # Minimum Ansible version required
+  dependencies: []                           # Role dependencies
